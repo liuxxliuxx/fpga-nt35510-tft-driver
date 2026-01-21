@@ -1,0 +1,125 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Wed Dec 10 17:05:18 2025
+| Host         : DESKTOP-NLQ3TAP running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_lcd_test_control_sets_placed.rpt
+| Design       : top_lcd_test
+| Device       : xc7a200t
+-----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    47 |
+|    Minimum number of control sets                        |    47 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   246 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    47 |
+| >= 0 to < 4        |     4 |
+| >= 4 to < 6        |     2 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     8 |
+| >= 10 to < 12      |    17 |
+| >= 12 to < 14      |    10 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     6 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             267 |          227 |
+| No           | No                    | Yes                    |              83 |           44 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |             225 |           86 |
+| Yes          | No                    | Yes                    |             177 |           71 |
+| Yes          | Yes                   | No                     |              90 |           27 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------+-------------------------------------+--------------------------+------------------+----------------+
+|   Clock Signal  |            Enable Signal            |     Set/Reset Signal     | Slice Load Count | Bel Load Count |
++-----------------+-------------------------------------+--------------------------+------------------+----------------+
+|  clk_IBUF_BUFG  | u_lcd_driver/lcd_rst_i_1_n_0        | u_lcd_driver/rst_n       |                1 |              1 |
+|  clk_IBUF_BUFG  | u_lcd_driver/lcd_rs_i_1_n_0         | u_lcd_driver/rst_n       |                1 |              1 |
+|  clk_IBUF_BUFG  | u_lcd_driver/lcd_wr_i_1_n_0         | u_lcd_driver/rst_n       |                1 |              1 |
+|  clk_IBUF_BUFG  | u_lcd_driver/lcd_cs0                | u_lcd_driver/rst_n       |                1 |              1 |
+|  clk_IBUF_BUFG  | u_lcd_driver/state[3]_i_1_n_0       | u_lcd_driver/rst_n       |                2 |              4 |
+|  clk_IBUF_BUFG  | u_game/player_hp[3]_i_1_n_0         | u_lcd_driver/rst_n       |                1 |              4 |
+|  u_key/scan_clk |                                     |                          |                3 |              9 |
+|  clk_IBUF_BUFG  | u_game/b_x[2][9]_i_1_n_0            |                          |                2 |              9 |
+|  clk_IBUF_BUFG  | u_game/b_x[4][9]_i_1_n_0            |                          |                2 |              9 |
+|  clk_IBUF_BUFG  | u_game/b_x                          |                          |                2 |              9 |
+|  clk_IBUF_BUFG  | u_game/b_x[1][9]_i_1_n_0            |                          |                4 |              9 |
+|  clk_IBUF_BUFG  | u_game/b_x[3][9]_i_1_n_0            |                          |                2 |              9 |
+|  clk_IBUF_BUFG  | u_game/player_y[9]_i_1_n_0          | u_lcd_driver/rst_n       |                3 |              9 |
+|  clk_IBUF_BUFG  | u_game/player_x[9]_i_1_n_0          | u_lcd_driver/rst_n       |                3 |              9 |
+|  clk_IBUF_BUFG  | u_game/e_y[6][9]_i_2_n_0            | u_game/e_y[6][9]_i_1_n_0 |                3 |             10 |
+|  clk_IBUF_BUFG  | u_lcd_driver/rom_index[9]_i_1_n_0   | u_lcd_driver/rst_n       |                8 |             10 |
+|  clk_IBUF_BUFG  | u_game/b_y[1][9]_i_1_n_0            |                          |                5 |             10 |
+|  clk_IBUF_BUFG  | u_game/b_y[0][9]_i_1_n_0            |                          |                4 |             10 |
+|  clk_IBUF_BUFG  | u_game/b_y[4][9]_i_1_n_0            |                          |                5 |             10 |
+|  clk_IBUF_BUFG  | u_game/b_y[2][9]_i_1_n_0            |                          |                3 |             10 |
+|  clk_IBUF_BUFG  | u_game/b_y[3][9]_i_1_n_0            |                          |                6 |             10 |
+|  clk_IBUF_BUFG  | u_lcd_driver/E[0]                   | u_lcd_driver/rst_n       |                4 |             10 |
+|  clk_IBUF_BUFG  | u_game/e_y[1][9]_i_2_n_0            | u_game/e_y[1][9]_i_1_n_0 |                3 |             10 |
+|  clk_IBUF_BUFG  | u_game/e_y[2][9]_i_2_n_0            | u_game/e_y[2][9]_i_1_n_0 |                3 |             10 |
+|  clk_IBUF_BUFG  | u_game/e_y[3][9]_i_2_n_0            | u_game/e_y[3][9]_i_1_n_0 |                3 |             10 |
+|  clk_IBUF_BUFG  | u_game/e_y[0][9]_i_1_n_0            |                          |                4 |             10 |
+|  clk_IBUF_BUFG  | u_game/e_y[5][9]_i_2_n_0            | u_game/e_y[5][9]_i_1_n_0 |                3 |             10 |
+|  clk_IBUF_BUFG  | u_game/e_y[9][9]_i_2_n_0            | u_game/e_y[9][9]_i_1_n_0 |                3 |             10 |
+|  clk_IBUF_BUFG  | u_game/e_y[4][9]_i_2_n_0            | u_game/e_y[4][9]_i_1_n_0 |                3 |             10 |
+|  clk_IBUF_BUFG  | u_game/e_y[8][9]_i_2_n_0            | u_game/e_y[8][9]_i_1_n_0 |                3 |             10 |
+|  clk_IBUF_BUFG  | u_game/e_y[7][9]_i_2_n_0            | u_game/e_y[7][9]_i_1_n_0 |                3 |             10 |
+|  clk_IBUF_BUFG  | u_game/e_spd[7][2]_i_1_n_0          |                          |                5 |             12 |
+|  clk_IBUF_BUFG  | u_game/e_spd[9][2]_i_1_n_0          |                          |                4 |             12 |
+|  clk_IBUF_BUFG  | u_game/e_spd[5][2]_i_1_n_0          |                          |                4 |             12 |
+|  clk_IBUF_BUFG  | u_game/e_spd[2][2]_i_1_n_0          |                          |                5 |             12 |
+|  clk_IBUF_BUFG  | u_game/e_spd[1][2]_i_1_n_0          |                          |                6 |             12 |
+|  clk_IBUF_BUFG  | u_game/e_spd[3][2]_i_1_n_0          |                          |                5 |             12 |
+|  clk_IBUF_BUFG  | u_game/e_x                          |                          |                4 |             12 |
+|  clk_IBUF_BUFG  | u_game/e_spd[4][2]_i_1_n_0          |                          |                3 |             12 |
+|  clk_IBUF_BUFG  | u_game/e_spd[6][2]_i_1_n_0          |                          |                6 |             12 |
+|  clk_IBUF_BUFG  | u_game/e_spd[8][2]_i_1_n_0          |                          |                5 |             12 |
+|  clk_IBUF_BUFG  | u_lcd_driver/lcd_db_reg[15]_i_1_n_0 | u_lcd_driver/rst_n       |               13 |             16 |
+|  clk_IBUF_BUFG  | u_game/score[0]_i_1_n_0             | u_lcd_driver/rst_n       |                4 |             16 |
+|  clk_IBUF_BUFG  | u_lcd_driver/delay_cnt[31]_i_1_n_0  | u_lcd_driver/rst_n       |                6 |             32 |
+|  clk_IBUF_BUFG  | u_lcd_driver/lcd_ready              | u_lcd_driver/rst_n       |               23 |             63 |
+|  clk_IBUF_BUFG  |                                     | u_lcd_driver/rst_n       |               44 |             83 |
+|  clk_IBUF_BUFG  |                                     |                          |              224 |            258 |
++-----------------+-------------------------------------+--------------------------+------------------+----------------+
+
+

@@ -1,0 +1,23 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/FPGAdazuoye.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/FPGAdazuoye.srcs/sources_1/new/LEDshow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LEDshow
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/FPGAdazuoye.srcs/sources_1/new/background_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module background_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/FPGAdazuoye.srcs/sources_1/new/game_core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module game_core
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/FPGAdazuoye.srcs/sources_1/new/gameover_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gameover_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/FPGAdazuoye.srcs/sources_1/new/lfsr_random.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lfsr_random
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/FPGAdazuoye.srcs/sources_1/new/matrix_key.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matrix_key
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/FPGAdazuoye.srcs/sources_1/new/nt35510_lcd_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nt35510_lcd_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/FPGAdazuoye.srcs/sources_1/new/sprite_roms.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module player_rom
+INFO: [VRFC 10-311] analyzing module enemy_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/FPGAdazuoye.srcs/sources_1/new/top_lcd_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_lcd_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/FPGAdazuoye.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

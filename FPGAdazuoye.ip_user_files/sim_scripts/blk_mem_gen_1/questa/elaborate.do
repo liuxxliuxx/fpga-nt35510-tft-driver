@@ -1,0 +1,1 @@
+vopt -64 +acc -l elaborate.log -L xpm -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -work blk_mem_gen_v8_4_4 blk_mem_gen_v8_4_4.blk_mem_gen_1 blk_mem_gen_v8_4_4.glbl -o blk_mem_gen_1_opt

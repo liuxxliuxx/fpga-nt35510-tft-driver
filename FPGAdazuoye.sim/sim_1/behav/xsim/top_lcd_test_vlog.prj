@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../FPGAdazuoye.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+"../../../../FPGAdazuoye.srcs/sources_1/new/LEDshow.v" \
+"../../../../FPGAdazuoye.srcs/sources_1/new/background_rom.v" \
+"../../../../FPGAdazuoye.srcs/sources_1/new/game_core.v" \
+"../../../../FPGAdazuoye.srcs/sources_1/new/gameover_rom.v" \
+"../../../../FPGAdazuoye.srcs/sources_1/new/lfsr_random.v" \
+"../../../../FPGAdazuoye.srcs/sources_1/new/matrix_key.v" \
+"../../../../FPGAdazuoye.srcs/sources_1/new/nt35510_lcd_driver.v" \
+"../../../../FPGAdazuoye.srcs/sources_1/new/sprite_roms.v" \
+"../../../../FPGAdazuoye.srcs/sources_1/new/top_lcd_test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

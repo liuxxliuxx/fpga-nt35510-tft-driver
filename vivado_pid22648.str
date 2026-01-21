@@ -1,0 +1,426 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 22648
+License: Customer
+
+Current time: 	Wed Dec 10 16:12:14 CST 2025
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 2196x1464
+Screen resolution (DPI): 150
+Available screens: 1
+Available disk space: 193 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=18
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	liuxx
+User home directory: C:/Users/liuxx
+User working directory: C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.2
+RDI_DATADIR: C:/Xilinx/Vivado/2019.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/liuxx/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/liuxx/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/liuxx/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/vivado.log
+Vivado journal file location: 	C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/vivado.jou
+Engine tmp dir: 	C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/.Xil/Vivado-22648-DESKTOP-NLQ3TAP
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.2
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 942 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// WARNING: HEventQueue.dispatchEvent() is taking  1056 ms.
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 108 MB (+110786kb) [00:00:14]
+// [Engine Memory]: 941 MB (+835103kb) [00:00:15]
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\liuxx\Downloads\FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti\FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti\FPGAdazuoye\FPGAdazuoye.xpr. Version: Vivado v2019.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/FPGAdazuoye.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye' 
+// HMemoryUtils.trashcanNow. Engine heap size: 942 MB. GUI used memory: 58 MB. Current time: 12/10/25, 4:12:16 PM CST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 1,034 MB (+48440kb) [00:00:22]
+// [GUI Memory]: 115 MB (+1505kb) [00:00:23]
+// WARNING: HEventQueue.dispatchEvent() is taking  5362 ms.
+// Tcl Message: open_project C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/FPGAdazuoye.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'. 
+// [Engine Memory]: 1,102 MB (+17037kb) [00:00:26]
+// WARNING: HEventQueue.dispatchEvent() is taking  1275 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 998.496 ; gain = 137.090 
+// Project name: FPGAdazuoye; location: C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye; part: xc7a200tfbg676-1
+// [Engine Memory]: 1,161 MB (+4155kb) [00:00:28]
+dismissDialog("Open Project"); // bB (cr)
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,216 MB. GUI used memory: 67 MB. Current time: 12/10/25, 4:12:31 PM CST
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v)]", 1); // B (F, cr)
+// [GUI Memory]: 121 MB (+609kb) [00:01:16]
+// PAPropertyPanels.initPanels (sprite_roms.v) elapsed time: 0.4s
+// Elapsed time: 58 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v), u_rom_p : player_rom (sprite_roms.v)]", 6, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v), u_rom_p : player_rom (sprite_roms.v)]", 6, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v), u_rom_p : player_rom (sprite_roms.v)]", 6, false); // B (F, cr)
+selectCodeEditor("sprite_roms.v", 413, 177); // ch (w, cr)
+// RDIResource.RDIViews_PROPERTIES: Source File Properties: close view
+// Elapsed time: 204 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 11); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 14); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v)]", 1, true); // B (F, cr) - Node
+// Elapsed time: 285 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v), u_lcd_driver : nt35510_lcd_driver (nt35510_lcd_driver.v)]", 2, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v), u_lcd_driver : nt35510_lcd_driver (nt35510_lcd_driver.v)]", 2, false, false, false, false, false, true); // B (F, cr) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+// Elapsed time: 131 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // i (h, cr)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v), u_rnd : lfsr_random (lfsr_random.v)]", 3, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v), u_key : matrix_key (matrix_key.v)]", 4, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v)]", 1, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v)]", 1, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+// [Engine Memory]: 1,220 MB (+405kb) [00:15:37]
+// Elapsed time: 286 seconds
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v)]", 1); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v), u_game : game_core (game_core.v)]", 5, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v), u_game : game_core (game_core.v)]", 5, false, false, false, false, false, true); // B (F, cr) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+// Elapsed time: 13 seconds
+selectCodeEditor("game_core.v", 374, 583); // ch (w, cr)
+// Elapsed time: 19 seconds
+selectCodeEditor("game_core.v", 563, 723); // ch (w, cr)
+// Elapsed time: 99 seconds
+selectCodeEditor("game_core.v", 704, 308); // ch (w, cr)
+selectCodeEditor("game_core.v", 723, 336); // ch (w, cr)
+selectCodeEditor("game_core.v", 865, 375); // ch (w, cr)
+// Elapsed time: 313 seconds
+selectCodeEditor("game_core.v", 184, 218); // ch (w, cr)
+selectCodeEditor("game_core.v", 182, 47); // ch (w, cr)
+selectCodeEditor("game_core.v", 187, 333); // ch (w, cr)
+selectCodeEditor("game_core.v", 177, 331); // ch (w, cr)
+selectCodeEditor("game_core.v", 255, 502); // ch (w, cr)
+selectCodeEditor("game_core.v", 174, 337); // ch (w, cr)
+selectCodeEditor("game_core.v", 329, 575); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("game_core.v", 824, 316); // ch (w, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,242 MB. GUI used memory: 71 MB. Current time: 12/10/25, 4:37:03 PM CST
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 483ms to process. Increasing delay to 3000 ms.
+// Elapsed time: 140 seconds
+selectCodeEditor("game_core.v", 624, 606); // ch (w, cr)
+// Elapsed time: 153 seconds
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v), u_rnd : lfsr_random (lfsr_random.v)]", 3, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v), u_rnd : lfsr_random (lfsr_random.v)]", 3, false, false, false, false, false, true); // B (F, cr) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+// Elapsed time: 12 seconds
+selectCodeEditor("lfsr_random.v", 631, 629); // ch (w, cr)
+// Elapsed time: 27 seconds
+selectCodeEditor("lfsr_random.v", 537, 541); // ch (w, cr)
+selectCodeEditor("lfsr_random.v", 519, 778); // ch (w, cr)
+// Elapsed time: 102 seconds
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v), u_key : matrix_key (matrix_key.v)]", 4, false); // B (F, cr)
+// [GUI Memory]: 128 MB (+1019kb) [00:32:28]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v), u_key : matrix_key (matrix_key.v)]", 4, false, false, false, false, false, true); // B (F, cr) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+// Elapsed time: 252 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lfsr_random.v", 5); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "game_core.v", 4); // i (h, cr)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v), u_rom_p : player_rom (sprite_roms.v)]", 6, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v), u_rom_p : player_rom (sprite_roms.v)]", 6, false, false, false, false, false, true); // B (F, cr) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+// Elapsed time: 55 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "game_core.v", 4); // i (h, cr)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v), u_rom_bg : background_rom (background_rom.v)]", 8, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v), u_rom_bg : background_rom (background_rom.v)]", 8, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Block Memory Generator ; AXI4 ; Production ; Included ; xilinx.com:ip:blk_mem_gen:8.4", 6, "Block Memory Generator", 0, true); // L (O, cr) - Node
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v), u_rom_bg : background_rom (background_rom.v), u_bram_ip : blk_mem_gen_0 (blk_mem_gen_0.xci)]", 9, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v), u_rom_bg : background_rom (background_rom.v), u_bram_ip : blk_mem_gen_0 (blk_mem_gen_0.xci)]", 9, false, false, false, false, false, true); // B (F, cr) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// O (cr):  Re-customize IP : addNotify
+// r (cr): Re-customize IP: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1884 ms.
+dismissDialog("Re-customize IP"); // O (cr)
+// Elapsed time: 25 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bh (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bh (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bh (E, r)
+// Elapsed time: 12 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v), u_seg_show : LEDshow (LEDshow.v)]", 11, false); // B (F, cr)
+// [GUI Memory]: 137 MB (+2634kb) [00:39:28]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v), u_seg_show : LEDshow (LEDshow.v)]", 11, false, false, false, false, false, true); // B (F, cr) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+// Elapsed time: 67 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_lcd_test.v", 3); // i (h, cr)
+// Elapsed time: 85 seconds
+floatFrame(PAResourceOtoP.PAViews_CODE, "top_lcd_test.v"); // aA (aL, cr)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "top_lcd_test.v"); // aA (aL, aN)
+// [GUI Memory]: 152 MB (+7873kb) [00:42:30]
+// Elapsed time: 41 seconds
+selectCodeEditor("top_lcd_test.v", 901, 335); // ch (w, aN)
+selectCodeEditor("top_lcd_test.v", 1008, 651); // ch (w, aN)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 142 seconds
+dockFrame(PAResourceOtoP.PAViews_CODE, "top_lcd_test.v"); // aA (aL, aN)
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "top_lcd_test.v"); // aA (aL, aN)
+// PAResourceOtoP.PAViews_CODE: Code: dock view
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cr):  Run Simulation : addNotify
+// Tcl Message: generate_target Simulation [get_files C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/FPGAdazuoye.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_1'... 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (e)
+// Tcl Message: INFO: [Common 17-365] Interrupt caught but 'generate_target' cannot be canceled. Please wait for command to finish. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-3499] Reset cancelled 'Simulation' target for IP 'blk_mem_gen_1'. 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:49 ; elapsed = 00:00:58 . Memory (MB): peak = 1216.055 ; gain = 37.668 
+// Tcl Message: INFO: [Common 17-681] Processing pending cancel. 
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/FPGAdazuoye.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: generate_target Simulation [get_files C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/FPGAdazuoye.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target: Time (s): cpu = 00:01:04 ; elapsed = 00:01:14 . Memory (MB): peak = 1256.906 ; gain = 0.000 
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/FPGAdazuoye.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/FPGAdazuoye.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj top_lcd_test_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '4' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/FPGAdazuoye.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto 2916a6ab00814d51b986b038280c090e --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_lcd_test_behav xil_defaultlib.top_lcd_test xil_defaultlib.glbl -log elaborate.log" 
+// TclEventType: LAUNCH_SIM
+// WARNING: HEventQueue.dispatchEvent() is taking  1189 ms.
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds INFO: [USF-XSim-99] Step results log file:'C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/FPGAdazuoye.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/FPGAdazuoye.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1256.906 ; gain = 0.000 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 242 seconds
+// Elapsed time: 233 seconds
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// a (cr): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cr)
+selectCodeEditor("top_lcd_test.v", 860, 354); // ch (w, cr)
+selectCodeEditor("top_lcd_test.v", 624, 733); // ch (w, cr)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bB (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cr): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// bB (cr):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Wed Dec 10 17:01:35 2025] Launched synth_1... Run output will be captured here: C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/FPGAdazuoye.runs/synth_1/runme.log [Wed Dec 10 17:01:36 2025] Launched impl_1... Run output will be captured here: C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye/FPGAdazuoye.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+dismissDialog("Generate Bitstream"); // bB (cr)
+// Elapsed time: 82 seconds
+selectCodeEditor("top_lcd_test.v", 588, 456); // ch (w, cr)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,242 MB. GUI used memory: 80 MB. Current time: 12/10/25, 5:07:06 PM CST
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 588ms to process. Increasing delay to 3000 ms.
+// aj (cr): Bitstream Generation Completed: addNotify
+// Elapsed time: 393 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (aj)
+dismissDialog("Bitstream Generation Completed"); // aj (cr)
+// Elapsed time: 159 seconds
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+// Elapsed time: 168 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v), u_rom_bg : background_rom (background_rom.v), u_bram_ip : blk_mem_gen_0 (blk_mem_gen_0.xci)]", 9, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v), u_rom_bg : background_rom (background_rom.v), u_bram_ip : blk_mem_gen_0 (blk_mem_gen_0.xci)]", 9, false, false, false, false, false, true); // B (F, cr) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cr): Re-customize IP: addNotify
+// Elapsed time: 37 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bh (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // bh (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bh (E, r)
+// Elapsed time: 13 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // bh (E, r)
+// Elapsed time: 46 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bh (E, r)
+// Elapsed time: 21 seconds
+setText("Defines the PortA Write Width(DINA)", "16"); // D (bi, r)
+// Elapsed time: 31 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bh (E, r)
+// Elapsed time: 32 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 3); // bh (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bh (E, r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cr)
+// Elapsed time: 394 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v)]", 1, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v)]", 1, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_lcd_test (top_lcd_test.v)]", 1, true); // B (F, cr) - Node
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+selectCodeEditor("top_lcd_test.v", 451, 537); // ch (w, cr)
+typeControlKey((HResource) null, "top_lcd_test.v", 'c'); // ch (w, cr)
+// Elapsed time: 40 seconds
+selectCodeEditor("top_lcd_test.v", 601, 267); // ch (w, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,242 MB. GUI used memory: 85 MB. Current time: 12/10/25, 5:37:09 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  3385491 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,242 MB. GUI used memory: 85 MB. Current time: 12/10/25, 6:37:47 PM CST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1920 ms. Increasing delay to 5760 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  84232 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  834293 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  113545 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,242 MB. GUI used memory: 81 MB. Current time: 12/10/25, 7:07:49 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  54249 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1456505 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1542 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,242 MB. GUI used memory: 81 MB. Current time: 12/10/25, 7:37:53 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  2310071 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,242 MB. GUI used memory: 81 MB. Current time: 12/10/25, 8:18:43 PM CST

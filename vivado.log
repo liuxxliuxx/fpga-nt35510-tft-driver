@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Dec 12 15:19:09 2025
+# Process ID: 33324
+# Current directory: E:/7组大作业（刘志恒、黄阔、宋康乐）——基于LCD显示的飞机大战小游戏/7组大作业（刘志恒、黄阔、宋康乐）——基于LCD显示的飞机大战小游戏/源码/FPGAdazuoye
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27972 E:\7组大作业（刘志恒、黄阔、宋康乐）——基于LCD显示的飞机大战小游戏\7组大作业（刘志恒、黄阔、宋康乐）——基于LCD显示的飞机大战小游戏\源码\FPGAdazuoye\FPGAdazuoye.xpr
+# Log file: E:/7组大作业（刘志恒、黄阔、宋康乐）——基于LCD显示的飞机大战小游戏/7组大作业（刘志恒、黄阔、宋康乐）——基于LCD显示的飞机大战小游戏/源码/FPGAdazuoye/vivado.log
+# Journal file: E:/7组大作业（刘志恒、黄阔、宋康乐）——基于LCD显示的飞机大战小游戏/7组大作业（刘志恒、黄阔、宋康乐）——基于LCD显示的飞机大战小游戏/源码/FPGAdazuoye\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/7组大作业（刘志恒、黄阔、宋康乐）——基于LCD显示的飞机大战小游戏/7组大作业（刘志恒、黄阔、宋康乐）——基于LCD显示的飞机大战小游戏/源码/FPGAdazuoye/FPGAdazuoye.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'E:/7组大作业（刘志恒、黄阔、宋康乐）——基于LCD显示的飞机大战小游戏/7组大作业（刘志恒、黄阔、宋康乐）——基于LCD显示的飞机大战小游戏/源码/FPGAdazuoye'
+INFO: [Project 1-313] Project file moved from 'C:/Users/liuxx/Downloads/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoyepromaxultrasu7zuizhongbansuper5090ti/FPGAdazuoye' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 759.559 ; gain = 136.578
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.2
+  **** Build date : Nov  6 2019 at 22:12:23
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2019.2.0
+  **** Build date : Nov 07 2019-13:28:22
+    ** Copyright 2017-2019 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 906.559 ; gain = 16.602
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251A08870
+set_property PROGRAM.FILE {E:/7组大作业（刘志恒、黄阔、宋康乐）——基于LCD显示的飞机大战小游戏/7组大作业（刘志恒、黄阔、宋康乐）——基于LCD显示的飞机大战小游戏/源码/FPGAdazuoye/FPGAdazuoye.runs/impl_1/top_lcd_test.bit} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a200t (JTAG device index = 0) is not programmed (DONE status = 0).
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 12 15:20:49 2025...
